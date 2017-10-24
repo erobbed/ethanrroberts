@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+body{
+  color: white;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+  background-repeat: no-repeat;
+}
+
+img.me {
+    -webkit-filter: saturate(800%); /* Safari */
+    filter: saturate(175%);
+}
+
+.App-logo {
+  border-radius: 15%;
+  height: 300px;
+}
+
+.App-header{
+  display: flex;
+  padding-left: 70px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.ui.cards{
+  margin: 0 auto;
+  justify-content: center;
+  display: inline-flex;
+}
