@@ -12,8 +12,9 @@ body{
 }
 
 img.me {
-    -webkit-filter: saturate(800%); /* Safari */
-    filter: saturate(175%);
+    -webkit-filter: saturate(300%); /* Safari */
+    filter: saturate(150%);
+    padding-top: 25px;
 }
 
 .App-logo {
@@ -36,6 +37,15 @@ img.me {
 
 h1{
   font-family: 'Rozha One', serif;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 20em;
+  animation: slidein 4s;
+}
+
+@keyframes slidein{
+  from { width: 0; }
 }
 
 p{
