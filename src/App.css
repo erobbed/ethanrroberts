@@ -37,14 +37,14 @@ img.me {
 
 h1{
   font-family: 'Rozha One', serif;
-  margin: 10px 0 0 10px;
   white-space: nowrap;
+  margin: 0 auto;
   overflow: hidden;
-  width: 20em;
-  animation: slidein 4s;
+  width: 8em;
+  animation: type 4s;
 }
 
-@keyframes slidein{
+@keyframes type {
   from { width: 0; }
 }
 
