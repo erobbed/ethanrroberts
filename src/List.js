@@ -16,7 +16,7 @@ const List = [
     },
     {
       name: 'Open When...',
-      demo: 'https://open-when.herokuapp.com/',
+      demo: 'https://open-when-app.herokuapp.com/',
       client: 'https://github.com/erobbed/open_when_app ',
       desc: "OpenWhen allows you to send heartfelt messages to your loved ones. Want to cheer someone up? Send an 'Open When You're...Sad. ' Want to cheer someone on during a difficult challenge? Write an 'Open When You're...In need of motivation.",
       image: './open.png'
